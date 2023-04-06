@@ -4,7 +4,7 @@ xmin主题框架来自 https://github.com/yihui/hugo-xmin ，评论框取自 htt
 
 
 
-![](./chrome_QPXJviLDQt.png)
+![](./chrome_513VL0yAMm.png)
 
 使用指南：
 
