@@ -24,6 +24,7 @@ if ( post_password_required() ) {
 <div id="comments" class="comments-area">
 
 	<?php if ( have_comments() ) : ?>
+	    <hr>
 		<h4 class="comments-title">
 			<?php
 				$comments_number = get_comments_number();
@@ -34,8 +35,8 @@ if ( post_password_required() ) {
 				printf(
 					/* translators: 1: number of comments, 2: post title */
 					esc_html( _nx(
-						'%1$s Comment;',
-						'%1$s Comments',
+						'%1$s 评论;',
+						'%1$s 条评论',
 						$comments_number,
 						'comments title',
 					) ),

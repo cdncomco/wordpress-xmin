@@ -46,6 +46,7 @@ function mywptheme_child_deregister_styles() {
 } //删除 classic-themes.min.css
 
 
+
 /* 彩色静态标签云 Color Tag Cloud 
 /* -------------------------------- */
 /*function colorCloud($text) {

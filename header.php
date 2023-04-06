@@ -14,8 +14,6 @@
 <?php if ( is_author() ) {?><title><?php wp_title('');?>发表的所有文章 - <?php bloginfo('name'); ?></title><?php }?>
     <link href='<?php echo get_template_directory_uri(); ?>/style.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/highlight/styles/vs2015.min.css" />
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/highlight/highlight.min.js"></script>
-
   </head>
 
   <body>
@@ -42,3 +40,4 @@
 
     <hr>
     </nav>
+    <main>

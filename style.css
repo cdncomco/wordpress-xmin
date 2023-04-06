@@ -4,6 +4,20 @@ body {
 	padding:1em;
 	line-height:1.5;
 }
+a {
+    text-decoration: none;
+    color:#222;
+}
+a:hover {
+    color:#315efb;
+}
+li {
+    line-height:220%
+}
+ul {
+    margin-bottom:5%
+}
+
 .menu {
 	padding:0
 }
@@ -174,20 +188,30 @@ textarea {
 }
 
 .page-numbers{
-    padding: 3px;
+    padding: 10px;
     background:#eee;
 }
 
+.navigation{
+    margin-bottom: 5% ;
+}
 
+.current{
+    background:none;
+}
+#search-input{
+    width:70%;
+    padding:8px;
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
 
-.comments-area {
+/*.comments-area {
 	padding-top: 25px;
   border-top: 1px solid #eaeaea;
   margin-top: 25px;
-}
+}*/
 
 .comments-area .comment-body {
 	border-bottom: 1px solid #e4e4e4;
